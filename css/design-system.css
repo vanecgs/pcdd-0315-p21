@@ -1,0 +1,147 @@
+html {
+  background-color: #F7F8FF;
+  font-size: 16px;
+  color: #232A3D;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0 0 1.25rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin: 0 0 1.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin: 0 0 1rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  margin: 0 0 1rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  margin: 0 0 0.5rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.main {
+  font-family: "source-sans-pro", sans-serif;
+  margin: 2rem auto;
+  max-width: 1280px;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header p {
+  margin: 0;
+}
+
+.section {
+  background-color: #fff;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+}
+
+.color-block {
+  padding: 1rem;
+}
+
+.color-brand-blue {
+  background-color: #1F69FF;
+  color: #fff;
+}
+
+.color-brand-orange {
+  background-color: #FA600A;
+  color: #fff;
+}
+
+.color-brand-green {
+  background-color: #24A871;
+  color: #fff;
+}
+
+.color-brand-purple {
+  background-color: #9B51E0;
+  color: #fff;
+}
+
+.color-brand-yellow {
+  background-color: #F7E08E;
+  color: #000;
+}
+
+.color-brand-red {
+  background-color: #C74E4E;
+  color: #fff;
+}
+
+.color-neutral-gray-100 {
+  background-color: #F7F8FF;
+  color: #000;
+}
+.color-neutral-gray-200 {
+  background-color: #D9DEE5;
+  color: #000;
+}
+.color-neutral-gray-300 {
+  background-color: #BAC4D1;
+  color: #000;
+}
+.color-neutral-gray-400 {
+  background-color: #7D8FA8;
+  color: #000;
+}
+.color-neutral-gray-500 {
+  background-color: #586885;
+  color: #fff;
+}
+.color-neutral-gray-600 {
+  background-color: #3F4C64;
+  color: #fff;
+}
+.color-neutral-gray-700 {
+  background-color: #30384E;
+  color: #fff;
+}
+.color-neutral-gray-800 {
+  background-color: #232A3D;
+  color: #fff;
+}
+.color-neutral-gray-900 {
+  background-color: #141926;
+  color: #fff;
+}
