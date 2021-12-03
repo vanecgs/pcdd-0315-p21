@@ -1,0 +1,131 @@
+
+/* colors */
+:root {
+  --backgrounds-dq-background-white: #ffffff;
+  --backgrounds-dq-background-light: #f1f3f4;
+  --neutrals-dq-gray-100: #f7f8ff;
+  --neutrals-dq-gray-200: #d9dee5;
+  --neutrals-dq-gray-300: #bac4d1;
+  --neutrals-dq-gray-400: #7d8fa8;
+  --neutrals-dq-gray-500: #586885;
+  --neutrals-dq-gray-600: #3f4c64;
+  --neutrals-dq-gray-700: #30384e;
+  --neutrals-dq-gray-800: #232a3d;
+  --neutrals-dq-gray-900: #141926;
+  --brand-dq-brand-blue: #1f69ff;
+  --brand-dq-brand-orange: #fa600a;
+  --brand-dq-brand-green: #24a871;
+  --brand-dq-brand-purple: #9b51e0;
+  --brand-dq-brand-yellow: #f7e08e;
+  --brand-dq-brand-red: #c74e4e;
+}
+
+/* fonts */
+:root {
+--primary-font: Source Sans Pro;
+--secondary-font: Source Sans Pro;
+--source-code-pro-regular: Source Code Pro;
+}
+/* text styles*/
+.heading-1 {
+  font-family : var(--secondary-font);
+  font-size : 60px;
+  line-height: 60px;
+  letter-spacing : 0em;
+}
+.heading-2 {
+  font-family : var(--secondary-font);
+  font-size : 36px;
+  line-height: 40px;
+  letter-spacing : 0em;
+}
+.heading-3 {
+  font-family : var(--secondary-font);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : 0em;
+}
+.heading-4 {
+  font-family : var(--primary-font);
+  font-size : 20px;
+  line-height: 28px;
+  letter-spacing : 0em;
+}
+.heading-5 {
+  font-family : var(--primary-font);
+  font-size : 18px;
+  line-height: 28px;
+  letter-spacing : 0em;
+}
+.heading-6 {
+  font-family : var(--primary-font);
+  font-size : 16px;
+  line-height: 26px;
+  letter-spacing : 0em;
+}
+.body-text {
+  font-family : var(--secondary-font);
+  font-size : 16px;
+  line-height: 26px;
+  letter-spacing : 0em;
+}
+.code-block {
+  font-family : var(--source-code-pro-regular);
+  font-size : 16px;
+  line-height: 27px;
+  letter-spacing : 0em;
+}
+.sub-heading {
+  font-family : var(--secondary-font);
+  font-size : 16px;
+  line-height: 24px;
+  letter-spacing : 0em;
+}
+.label {
+  font-family : var(--secondary-font);
+  font-size : 18px;
+  line-height: 28px;
+  letter-spacing : 0em;
+}
+.input {
+  font-family : var(--secondary-font);
+  font-size : 16px;
+  line-height: 22px;
+  letter-spacing : 0em;
+}
+.button {
+  font-family : var(--primary-font);
+  font-size : 14px;
+  line-height: 19px;
+  letter-spacing : 0em;
+}
+.button-large {
+  font-family : var(--primary-font);
+  font-size : 16px;
+  line-height: 22px;
+  letter-spacing : 0em;
+}
+.button-small {
+  font-family : var(--primary-font);
+  font-size : 12px;
+  line-height: 17px;
+  letter-spacing : 0em;
+}
+.card-title {
+  font-family : var(--primary-font);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : 0em;
+}
+
+/* SpacePatterns */
+:root {
+  --none: 0px;
+  --xx-small: 2px;
+  --x-small: 4px;
+  --small: 8px;
+  --regular: 16px;
+  --large: 32px;
+  --x-large: 64px;
+  --xx-large: 128px;
+}
