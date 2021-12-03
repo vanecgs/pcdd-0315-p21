@@ -1,0 +1,125 @@
+
+/* colors */
+$backgrounds-dq-background-white: #ffffff;
+$backgrounds-dq-background-light: #f1f3f4;
+$neutrals-dq-gray-100: #f7f8ff;
+$neutrals-dq-gray-200: #d9dee5;
+$neutrals-dq-gray-300: #bac4d1;
+$neutrals-dq-gray-400: #7d8fa8;
+$neutrals-dq-gray-500: #586885;
+$neutrals-dq-gray-600: #3f4c64;
+$neutrals-dq-gray-700: #30384e;
+$neutrals-dq-gray-800: #232a3d;
+$neutrals-dq-gray-900: #141926;
+$brand-dq-brand-blue: #1f69ff;
+$brand-dq-brand-orange: #fa600a;
+$brand-dq-brand-green: #24a871;
+$brand-dq-brand-purple: #9b51e0;
+$brand-dq-brand-yellow: #f7e08e;
+$brand-dq-brand-red: #c74e4e;
+
+/* fonts */
+$primary-font: Source Sans Pro;
+$secondary-font: Source Sans Pro;
+$source-code-pro-regular: Source Code Pro;
+/* text styles*/
+@mixin heading-1() {
+  fontFamily : $secondary-font;
+  fontSize : 60px;
+  lineHeight: 60px;
+  letterSpacing : 0em;
+}
+@mixin heading-2() {
+  fontFamily : $secondary-font;
+  fontSize : 36px;
+  lineHeight: 40px;
+  letterSpacing : 0em;
+}
+@mixin heading-3() {
+  fontFamily : $secondary-font;
+  fontSize : 24px;
+  lineHeight: 32px;
+  letterSpacing : 0em;
+}
+@mixin heading-4() {
+  fontFamily : $primary-font;
+  fontSize : 20px;
+  lineHeight: 28px;
+  letterSpacing : 0em;
+}
+@mixin heading-5() {
+  fontFamily : $primary-font;
+  fontSize : 18px;
+  lineHeight: 28px;
+  letterSpacing : 0em;
+}
+@mixin heading-6() {
+  fontFamily : $primary-font;
+  fontSize : 16px;
+  lineHeight: 26px;
+  letterSpacing : 0em;
+}
+@mixin body-text() {
+  fontFamily : $secondary-font;
+  fontSize : 16px;
+  lineHeight: 26px;
+  letterSpacing : 0em;
+}
+@mixin code-block() {
+  fontFamily : $source-code-pro-regular;
+  fontSize : 16px;
+  lineHeight: 27px;
+  letterSpacing : 0em;
+}
+@mixin sub-heading() {
+  fontFamily : $secondary-font;
+  fontSize : 16px;
+  lineHeight: 24px;
+  letterSpacing : 0em;
+}
+@mixin label() {
+  fontFamily : $secondary-font;
+  fontSize : 18px;
+  lineHeight: 28px;
+  letterSpacing : 0em;
+}
+@mixin input() {
+  fontFamily : $secondary-font;
+  fontSize : 16px;
+  lineHeight: 22px;
+  letterSpacing : 0em;
+}
+@mixin button() {
+  fontFamily : $primary-font;
+  fontSize : 14px;
+  lineHeight: 19px;
+  letterSpacing : 0em;
+}
+@mixin button-large() {
+  fontFamily : $primary-font;
+  fontSize : 16px;
+  lineHeight: 22px;
+  letterSpacing : 0em;
+}
+@mixin button-small() {
+  fontFamily : $primary-font;
+  fontSize : 12px;
+  lineHeight: 17px;
+  letterSpacing : 0em;
+}
+@mixin card-title() {
+  fontFamily : $primary-font;
+  fontSize : 24px;
+  lineHeight: 32px;
+  letterSpacing : 0em;
+}
+
+/* SpacePatterns */
+$none: 0px;
+$xx-small: 2px;
+$x-small: 4px;
+$small: 8px;
+$regular: 16px;
+$large: 32px;
+$x-large: 64px;
+$xx-large: 128px;
